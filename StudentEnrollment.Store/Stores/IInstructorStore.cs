@@ -8,6 +8,10 @@ namespace StudentEnrollment.Store.Stores
         List<Instructor> GetByDepartment(string department);
 
         Instructor GetByUserId(string id);
-        Instructor GetByFullName(string FirstName, string LastName);
+        
+        Instructor GetByFullName(string firstname, string lastname);
+        
+        Instructor GetByLastName(string lastname);
+
     }
 }
