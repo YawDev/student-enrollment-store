@@ -10,11 +10,10 @@ namespace StudentEnrollment.Store
         IEnrollmentStore EnrollmentStore { get; }
         IInstructorStore InstructorStore { get; }
         IDepartmentStore DepartmentStore { get; }
-
         IRequestUserStore RequestUserStore{get;}
         IAdminStore AdminStore{get;}
         ISyncStudentDataLogStore SyncStudentDataLogStore{get;}
-
+        ICourseUploadFileStore CourseUploadFileStore{get;}
         IUploadCoursesLogStore UploadCoursesLogStore{get;}
         IUploadCourseErrorStore UploadCourseErrorStore{get;}
 
