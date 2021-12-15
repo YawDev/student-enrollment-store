@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using StudentEnrollment.Store.Entities;
 using StudentEnrollment.Store.Enums;
 
 namespace StudentEnrollment.Entities
 {
-    public class Instructor
+    public class Instructor : BaseEntity
     {
         public Guid Id { get; set; }
         public string Firstname { get; set; }

@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using StudentEnrollment.Store.Entities;
 
 namespace StudentEnrollment.Entities
 {
-    public class Department
+    public class Department : BaseEntity
     {
         public Guid Id { get; set; }
     

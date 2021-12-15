@@ -7,7 +7,7 @@ namespace StudentEnrollment.Store.Stores
 {
     public interface ICourseUploadFileStore : IStore<CourseUploadFile>
     {
-        List<CourseUploadFile> GetUploadedFiles(Admin admin);
+        List<CourseUploadFile> GetUploadedFiles(string requestUserId);
 
         CourseUploadFile GetFileById(Guid id);
 

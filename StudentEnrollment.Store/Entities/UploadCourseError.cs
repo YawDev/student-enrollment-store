@@ -3,7 +3,7 @@ using StudentEnrollment.Enum;
 
 namespace StudentEnrollment.Store.Entities
 {
-    public class UploadCourseError
+    public class UploadCourseError : BaseEntity
     {
         public Guid Id { get; set; }
         public string ErrorMessage { get; set; }
