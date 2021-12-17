@@ -5,7 +5,7 @@ using StudentEnrollment.Enum;
 
 namespace StudentEnrollment.Store.Entities
 {
-    public class UploadCoursesLog
+    public class UploadCoursesLog : BaseEntity
     {
         public Guid Id { get; set; }
         public DateTime TimeGenerated { get; set; }

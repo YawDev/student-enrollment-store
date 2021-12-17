@@ -3,15 +3,13 @@ using StudentEnrollment.Entities;
 
 namespace StudentEnrollment.Store.Entities
 {
-    public class CourseUploadFile
+    public class CourseUploadFile : BaseEntity
     {
         public Guid Id { get; set; }
 
         public DateTime UploadDate { get; set; }
 
-        public Admin Admin { get; set; }
-
-        public string RequestId { get; set; }
+        public string RequestUserId { get; set; }
         
         public string FileName { get; set; }
 

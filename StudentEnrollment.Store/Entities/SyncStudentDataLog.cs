@@ -2,7 +2,7 @@ using System;
 
 namespace StudentEnrollment.Store.Entities
 {
-    public class SyncStudentDataLog
+    public class SyncStudentDataLog 
     {
         public Guid Id { get; set; }
         public DateTime TimeGenerated { get; set; }

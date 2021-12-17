@@ -7,7 +7,7 @@ using StudentEnrollment.Store.Enums;
 
 namespace StudentEnrollment.Entities
 {
-    public class Student
+    public class Student 
     {
         public Guid Id { get; set; }
         public string Firstname { get; set; }

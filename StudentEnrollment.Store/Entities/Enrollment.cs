@@ -2,10 +2,11 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using StudentEnrollment.Enum;
+using StudentEnrollment.Store.Entities;
 
 namespace StudentEnrollment.Entities
 {
-    public class Enrollment
+    public class Enrollment : BaseEntity
     {
         public Guid Id { get; set; }
         public Guid? CourseId { get; set; }
