@@ -1,9 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-using System;
-using System.Collections.Generic;
-
 namespace StudentEnrollment.Store.Stores
 {
     public interface IStore<TEntity> where TEntity : class
