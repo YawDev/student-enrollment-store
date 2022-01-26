@@ -23,7 +23,7 @@ namespace StudentEnrollment.Store.Stores
 
         List<Course> GetCoursesBySection(string section);
         
-        List<Course> CompleteSearch(string courseName, string abbreviation, string section, string instructor, string department);
+        List<Course> CompleteSearch(string searchKeywords);
 
         
 
